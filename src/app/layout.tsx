@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <Header className="border-b" />
         <main className="flex-auto">{children}</main>
-        <Footer className="mt-4 border-t" />
+        <Footer className="border-t" />
       </body>
     </html>
   )
