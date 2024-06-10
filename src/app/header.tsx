@@ -26,13 +26,7 @@ function Navbar(props: NavbarProps) {
           <a href="/hobbies">Hobbies</a>
         </li>
         <li>
-          <a href="/my-apprenticeship">Meine Ausbildung</a>
-        </li>
-        <li>
           <a href="/resume">Lebenslauf</a>
-        </li>
-        <li>
-          <a href="/contact">Kontakt</a>
         </li>
       </ul>
     </nav>
