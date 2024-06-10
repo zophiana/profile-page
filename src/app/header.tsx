@@ -51,7 +51,7 @@ export default function Header(props: HeaderProps) {
           <Navbar className={'hidden md:flex'}></Navbar>
           <Sheet>
             <SheetTrigger className="flex md:hidden">
-              <Bars3Icon className="h-8 w-8" />
+              <Bars3Icon className="size-8" />
             </SheetTrigger>
             <SheetContent className="w-80" side="right">
               <Navbar vertial></Navbar>

@@ -9,7 +9,7 @@ type ClampProps = {
 
 export default function Clamp(props: ClampProps) {
   return (
-    <div className="flex h-full w-full justify-center">
+    <div className="flex size-full justify-center">
       <div className={cn('flex w-full max-w-7xl px-4', props.className)}>
         {props.children}
       </div>
