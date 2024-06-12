@@ -94,11 +94,11 @@ export default function CVPage() {
             <ul className="list-inside list-disc pl-1">
               <li>Landessprecher des FÖJ in NRW</li>
               <li>Einsatz für die Interessen der Freiwilligen</li>
-              <li>Organisation von Treffen mit Politikerin</li>
+              <li>Organisation von Treffen mit LWL-Landesrätin</li>
             </ul>
           </ResumeCard>
 
-          <ResumeDate date="Sep. 2011 - Juli 2022"></ResumeDate>
+          <ResumeDate date="Aug. 2013 - Juli 2022"></ResumeDate>
           <DotWithLine></DotWithLine>
           <ResumeCard
             title="Abitur"
