@@ -12,6 +12,10 @@ export default {
       },
     },
     extend: {
+      screens: {
+        '420px': '420px',
+        '500px': '500px',
+      },
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
         mono: ['var(--font-geist-mono)'],
