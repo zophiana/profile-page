@@ -53,7 +53,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <Clamp className="justify-center">
+      <Clamp className="justify-center pb-96">
         <div className="flex flex-col-reverse items-center py-4 sm:flex-row sm:py-12 sm:pe-8 sm:ps-4 sm:[align-items:_unset] md:py-20 md:pe-20 md:ps-16">
           <div className="z-10 flex min-w-0 flex-col">
             <div
@@ -103,11 +103,6 @@ export default function HomePage() {
             className="image sticky z-auto h-fit w-full max-w-sm animate-fade-left sm:top-[6.5rem] sm:min-w-[45%] sm:max-w-none md:top-[8.5rem] md:min-w-[47%] lg:min-w-[43%]"
           ></Image>
         </div>
-      </Clamp>
-      <Clamp className="flex-col">
-        <h1 className="pb-32 pt-96 text-center text-5xl font-semibold sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
-          Here is nothing ...
-        </h1>
       </Clamp>
     </div>
   )
