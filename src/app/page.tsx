@@ -15,12 +15,13 @@ type HobbiesBlockProps = {
 
 function HobbiesBlock(props: HobbiesBlockProps) {
   return (
-    <ArticleBlock className={props.className} title="Hobbies">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nihil
-      totam aut consequuntur incidunt et, nulla dolorem, perspiciatis in quaerat
-      blanditiis! Qui impedit quidem ab neque quibusdam, omnis dignissimos
-      doloremque? Quisquam, quaerat, dolores, asperiores, repellat, quaerat,
-      quam, doloremque, quibusdam, voluptates, ipsam!
+    <ArticleBlock className={props.className} title="Interessen">
+      Ich liebe Technik und habe schon früh angefangen, Mikrocontroller zu
+      programmieren. Später habe ich mit Raspberry Pis experimentiert. So habe
+      ich gelernt, Linux zu administrieren und Docker zu benutzen. Während
+      meiner Ausbildung habe ich gelernt, wie Softwareentwicklung im Team
+      funktioniert. Darüber hinaus habe ich Java gelernt und wie man einen
+      Debugger effektiv einsetzt.
     </ArticleBlock>
   )
 }
@@ -76,13 +77,13 @@ export default function HomePage() {
             <div className="animate-fade-up sm:pr-10">
               <PaddingBlock />
               <HeightBlock className="gap-5">
-                <ArticleBlock title="Über Mich">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Harum, aperiam dolorem earum aut modi incidunt vitae ipsum.
-                  Numquam repellendus, corporis ipsum dolor fugit veniam
-                  corrupti ea eaque provident minus. Voluptate! Quisquam
-                  voluptate, quia, quaerat, dolores, asperiores, repellat,
-                  quaerat, quam, doloremque, quibusdam, voluptates, ipsam!
+                <ArticleBlock>
+                  …, 20 Jahre alt und mache eine Ausbildung zum Fachinformatiker
+                  für Anwendungsentwicklung. Vor meiner Ausbildung habe ich ein
+                  Freiwilliges Ökologisches Jahr (FÖJ) gemacht. Meine
+                  Schullaufbahn habe ich mit dem Abitur abgeschlossen. In meiner
+                  Freizeit tanze ich viel Paartanz, unter anderem Latein- und
+                  Standardtanz, aber auch West Coast Swing.
                 </ArticleBlock>
                 <HobbiesBlock className="hidden lg:block"></HobbiesBlock>
               </HeightBlock>

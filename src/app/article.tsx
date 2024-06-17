@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 type ArticleBlockProps = {
   className?: string
   classNameTitle?: string
-  title: string
+  title?: string
   children: React.ReactNode
 }
 

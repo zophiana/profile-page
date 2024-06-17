@@ -5,6 +5,7 @@ import ArticleBlock from '@/app/article'
 import Clamp from '@/app/clamp'
 
 import codePic from '/public/images/code.jpg'
+import dancePic from '/public/images/dance.webp'
 import pianoPic from '/public/images/piano.jpg'
 
 type HobbiesCardProps = {
@@ -50,45 +51,44 @@ export default function HobbiesPage() {
   return (
     <main className="flex-auto">
       <Clamp className="flex flex-col gap-16 py-12">
-        <HobbiesCard title="Coden" image={codePic} alt={'Monitor with code'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
+        <HobbiesCard
+          title="Coden & Technik"
+          image={codePic}
+          alt={'Monitor with code'}
+        >
+          Ich habe mich als Kind schon immer dafür interessiert, wie dinge
+          funktionieren. Vor allem wie alles Elektronische funktioniert und
+          welche Komponenten man dafür braucht. Vor allem haben es mir Computer
+          angetan, weshalb ich immer versucht habe zu verstehen wie sie
+          funktionieren. Deshalb benutze ich auch schon seit Jahren Linux als
+          mein haupt Betriebsystem.
         </HobbiesCard>
 
         <HobbiesCard
-          title="Klavier spielen"
-          image={pianoPic}
-          alt={'Picture of Piano'}
+          title="Tanzen"
+          image={dancePic}
+          alt={'Monitor with code'}
           layoutReverse
         >
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
+          Ich tanze seit vielen Jahren sehr gerne Latein- und Standardtanz. Vor
+          ein paar Jahren habe ich dann West Coast Swing für mich entdeckt. Mir
+          gefällt besonders, dass es so viele Variationsmöglichkeiten gibt und
+          dass es darauf ankommt, die Musik so gut wie möglich zu tanzen.
+          Dadurch habe ich viel neues zu dem Aufbau von Musik gelernt, was mir
+          auch beim Klavier spielen geholfen hat.
         </HobbiesCard>
 
-        <HobbiesCard title="Tanzen" image={codePic} alt={'Monitor with code'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
+        <HobbiesCard
+          title="Klavier & Musik"
+          image={pianoPic}
+          alt={'Picture of Piano'}
+        >
+          Bevor ich mit dem Klavier spielen angefangen habe habe ich viele Jahre
+          Geige gespielt. Dann habe ich allerdings mit dem Klavier spielen
+          angefangen. Mich hat daran begeistert, dass man zweistimmig musik
+          machen kann. Dadurch klingt es gleich sehr viel voller als mit der
+          Geige. Außerdem gibt es für das Klavier viele Noten für moderne Musik.
+          Weshalb ich nur noch Klavier spiele.
         </HobbiesCard>
       </Clamp>
     </main>
