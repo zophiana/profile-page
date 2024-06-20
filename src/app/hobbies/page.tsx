@@ -58,10 +58,10 @@ export default function HobbiesPage() {
         >
           Ich habe mich als Kind schon immer dafür interessiert, wie dinge
           funktionieren. Vor allem wie alles Elektronische funktioniert und
-          welche Komponenten man dafür braucht. Vor allem haben es mir Computer
+          welche Komponenten man dafür braucht. Besonders Computer haben es mir
           angetan, weshalb ich immer versucht habe zu verstehen wie sie
-          funktionieren. Deshalb benutze ich auch schon seit Jahren Linux als
-          mein haupt Betriebsystem.
+          funktionieren. Daher benutze ich seit Jahren Linux als mein
+          Hauptbetriebssystem.
         </HobbiesCard>
 
         <HobbiesCard
@@ -71,11 +71,12 @@ export default function HobbiesPage() {
           layoutReverse
         >
           Ich tanze seit vielen Jahren sehr gerne Latein- und Standardtanz. Vor
-          ein paar Jahren habe ich dann West Coast Swing für mich entdeckt. Mir
-          gefällt besonders, dass es so viele Variationsmöglichkeiten gibt und
-          dass es darauf ankommt, die Musik so gut wie möglich zu tanzen.
-          Dadurch habe ich viel neues zu dem Aufbau von Musik gelernt, was mir
-          auch beim Klavier spielen geholfen hat.
+          ein paar Jahren habe ich dann den West Coast Swing für mich entdeckt.
+          An diesem Tanz gefällt mir besonders, dass es so viele
+          Variationsmöglichkeiten gibt und dass er das Ziel hat, die Musik so
+          gut wie möglich zu vertanzen. Dadurch habe ich viel Neues über den
+          Aufbau von Musik gelernt, was mir auch beim Klavierspielen geholfen
+          hat.
         </HobbiesCard>
 
         <HobbiesCard
@@ -83,12 +84,12 @@ export default function HobbiesPage() {
           image={pianoPic}
           alt={'Picture of Piano'}
         >
-          Bevor ich mit dem Klavier spielen angefangen habe habe ich viele Jahre
-          Geige gespielt. Dann habe ich allerdings mit dem Klavier spielen
-          angefangen. Mich hat daran begeistert, dass man zweistimmig musik
-          machen kann. Dadurch klingt es gleich sehr viel voller als mit der
-          Geige. Außerdem gibt es für das Klavier viele Noten für moderne Musik.
-          Weshalb ich nur noch Klavier spiele.
+          Bevor ich mit dem Klavierspielen angefangen habe, habe ich viele Jahre
+          Geige gespielt. Dann habe ich mit dem Klavierspielen angefangen. Mir
+          hat daran begeistert, dass man zweistimmig Musik machen kann. Dadurch
+          klingt es gleich sehr viel voller als mit der Geige. Außerdem gibt es
+          für das Klavier viele Noten für moderne Musik. Deshalb spiele ich nur
+          noch Klavier.
         </HobbiesCard>
       </Clamp>
     </main>
