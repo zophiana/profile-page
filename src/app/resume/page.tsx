@@ -70,7 +70,7 @@ export default function CVPage() {
               <ul className="list-disc pl-1">
                 <Li>Arbeit in einem Software-Entwicklungsteam</Li>
                 <Li>IntelliJ mit Java und Scout-Framework</Li>
-                <Li>Oracle SQL und Oracle PL/SQL</Li>
+                <Li>Oracle DB und Oracle PL/SQL</Li>
                 <Li>Jira und Confluence</Li>
                 <Li>GitLab Entwicklungs-Workflow</Li>
               </ul>
@@ -131,7 +131,7 @@ export default function CVPage() {
               <CardTitle>Abitur</CardTitle>
               <CardDescription>
                 Werner-von-Siemens-Gesamtschule Königsborn,&nbsp;
-                <br className="max-420px:hidden block lg:hidden" />
+                <br className="block max-420px:hidden lg:hidden" />
                 Döbelner Str. 7, 59425 Unna
               </CardDescription>
             </CardHeader>
